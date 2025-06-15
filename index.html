@@ -79,6 +79,7 @@
       pointer-events: none;
       z-index: 9999;
       overflow: hidden;
+      display: none;
     }
 
     .watermark-text {
@@ -92,7 +93,7 @@
 </head>
 
 <body>
-  <div class="watermark-container" id="watermark-container"></div>
+  <div class="watermark-container" id="watermark-container" style="display:none;"></div>
   <div class="loading" id="loading">加载中，请稍后...</div>
   <iframe id="content-frame"></iframe>
   <script src="./main.js"></script>
